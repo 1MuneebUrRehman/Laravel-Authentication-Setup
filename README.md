@@ -4,11 +4,11 @@
 First, open Terminal and run the following command to create a fresh laravel project:
 
 ```bash
-laravel new laravel9-auth
+laravel new laravel-auth
 ```
 OR
 ```bash
-composer create-project --prefer-dist laravel/laravel laravel9-auth
+composer create-project --prefer-dist laravel/laravel laravel-auth
 ```
 
 # Configure Database Details
@@ -16,7 +16,7 @@ composer create-project --prefer-dist laravel/laravel laravel9-auth
 DB_CONNECTION=mysql 
 DB_HOST=127.0.0.1 
 DB_PORT=3306 
-DB_DATABASE=
+DB_DATABASE=laravel-auth
 DB_USERNAME=root
 DB_PASSWORD=
 ```
